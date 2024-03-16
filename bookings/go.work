@@ -1,0 +1,10 @@
+go 1.22.0
+
+use (
+	.
+	./cmd/pkg/config
+	./cmd/pkg/handlers
+	./cmd/pkg/models
+	./cmd/pkg/render
+	./cmd/web
+)
